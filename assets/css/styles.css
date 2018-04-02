@@ -1,0 +1,195 @@
+#topnav, #menu {
+    
+}
+@media only screen and (max-width: 992px) {
+   /* #mainarea  {
+        margin-left: 140px;
+    }*/ 
+
+  }
+@media only screen and (max-width: 550px) {
+   
+    #myScrollspy {
+        margin-left: -150px;
+    }
+    #mainarea  {
+        margin: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    } 
+}
+@media only screen and (max-width: 1200px) {
+    #theCarousel  {
+        margin-top: -300px;
+    }
+  }
+#tempscroll {
+    height: 1000px;
+    width: 100px;
+}
+.affix {
+    top: 90px;
+}
+.card {
+    background-color: white;
+    height: 11em;
+   
+    margin-top: 30px;
+    
+}
+.card img {
+    height: 150px;
+    width: 110px;
+position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    top: -10px;
+    left: 10px;
+    
+}
+.navbar {
+    background-color: white;
+    color: black;
+}
+.navbar-nav > .active {
+    background-color: #9c27b0;
+    border-radius: 4px;
+    color: #FFFFFF;
+    box-shadow: 0 16px 26px -10px rgba(156, 39, 176, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2);
+
+}
+
+.card h6 {
+   margin: 30px 10px 2px 130px;
+    font-family: sans-serif;
+    color: dimgray;
+}
+body {
+    margin-top: 80px;
+    background-color: #efebeb;
+   
+}
+h7 {
+    margin: 2px 5px 20px 140px;
+    font-family: sans-serif;
+    color: grey
+}
+.btn input {
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+.card button {
+    position: absolute;   
+}
+
+.buybtn {
+    position: absolute;  
+    bottom: 8px;
+    right: 4px;
+}
+.knowbtn {
+    bottom: 8px;
+    right: 92px;
+}
+
+/*carousal*/
+.multi-item-carousel .carousel-inner > .item {
+  -webkit-transition: 500ms ease-in-out left;
+  transition: 500ms ease-in-out left;
+}
+.multi-item-carousel .carousel-inner .active.left {
+  left: -33%;
+}
+.multi-item-carousel .carousel-inner .active.right {
+  left: 33%;
+}
+.multi-item-carousel .carousel-inner .next {
+  left: 33%;
+}
+.multi-item-carousel .carousel-inner .prev {
+  left: -33%;
+}
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .multi-item-carousel .carousel-inner > .item {
+    -webkit-transition: 500ms ease-in-out left;
+    transition: 500ms ease-in-out left;
+    -webkit-transition: 500ms ease-in-out all;
+    transition: 500ms ease-in-out all;
+    -webkit-backface-visibility: visible;
+            backface-visibility: visible;
+    -webkit-transform: none!important;
+            transform: none!important;
+  }
+}
+.multi-item-carousel .carouse-control.left,
+.multi-item-carousel .carouse-control.right {
+  background-image: none;
+}
+.carousel .carousel-control {
+    width: 10%;
+}
+/*end carousel*/
+.c-content {
+    
+    color: white;
+    margin-left: 190px;
+    margin-top: 25px;
+}
+.img-responsive {
+    
+    
+}
+
+.item div {
+   height: 15em;
+    padding: 0px;
+    margin-bottom: 80px;
+   position: relative;
+    
+    
+}
+.item img {
+    position: absolute;     
+     width:150px ;
+    height:230px;
+    left: 20px;
+    top: 20px;
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.2),0px 25px 20px -20px rgba(0, 0, 0, 0.2),0px 60px 50px -40px rgba(0, 0, 0, 0.2) ; 
+}
+
+
+#bk1 {
+    background-color: palevioletred;
+}
+#bk2 {
+    background-color: #0cf05b;
+}
+#bk3 {
+    background-color: dodgerblue;
+}
+#bk4 {
+    background-color: coral;
+}
+
+.c-btn {
+    background-color: white;
+    color: black;
+   position: absolute;
+    right: 20px;
+    bottom: 2px;
+    box-shadow: 0 16px 26px -10px rgba(4, 109, 16, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(156, 39, 176, 0.2);
+
+}
+.modal-title {
+    margin-top: 20px;
+}
+
+
+.card-sign {
+    height: 530px;
+}
+
+.card-login {
+    height: 460px;
+}
+
