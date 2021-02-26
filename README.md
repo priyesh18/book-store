@@ -1,5 +1,5 @@
 # Book Store E-Commerce website using PHP and MySQL
-View Project: https://visual-bookshop.000webhostapp.com/landing/lp.php  
+View Project:https://softback-store.000webhostapp.com/index.php  
 View Project video: https://www.youtube.com/watch?v=g6Mw-HAAUbU
 ### Technologies used:
 HTML, CSS, Bootstrap, JavaScript, PHP, MySQL, Apache.
